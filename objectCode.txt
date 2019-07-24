@@ -1,0 +1,30 @@
+	     Symbol Table			
+	name		address		
+	arr		001006
+	alpha		00100C
+	length		001003
+	delta		00100F
+	beta		001012
+	gamma		001015
+
+
+	     p r o g r a m     l i s t i n g		
+                   .23456789012345678901234567890123456
+                   .Label.  Opcode  The  O p e r a n d 
+001000                            START   1000
+001000        692000              LDB     #LENGTH
+001003                   LENGTH   RESW    1
+001006                   ARR      RESW    10
+001024        007200              LDX     =W'1234'
+001027        9C51                DIVR    T,X
+001029        7F101002            +STS    ALPHA-10
+00102D                            ORG     ARR
+001006        7F2003              STS     ALPHA
+001009        022006              LDA     @BETA
+                   .         LDA     @BETA,X
+00100C                   ALPHA    RESW    1
+00100F                   DELTA    RESW    1
+001012        000019     BETA     WORD    25
+001015        000004     GAMMA    WORD    4
+001018                            END     
+00101B        0004D2     =w'1234'
