@@ -14,3 +14,4 @@
  12.Update Program Counter 
  13.Loop Whole Code 
  14.Print In File
+[readme.txt](https://github.com/tarekosama126/Assembler/files/7977098/readme.txt)
