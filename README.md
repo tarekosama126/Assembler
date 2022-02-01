@@ -1,5 +1,5 @@
 # Assembler
- STEPS OF PHASE1 \n
+ STEPS OF PHASE1 <br />
  1.Reading file and adding code into array list line by line
  2.Initializing Directive Map and Instruction Map And Fill it 
  3.Validating END statement (Absence of End , Validating Label of End) 
