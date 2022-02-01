@@ -2,7 +2,7 @@
  STEPS OF PHASE1 <br />
  1.Reading file and adding code into array list line by line <br />
  2.Initializing Directive Map and Instruction Map And Fill it <br />
- 3.Validating END statement (Absence of End , Validating Label of End) <br /> <br />
+ 3.Validating END statement (Absence of End , Validating Label of End) <br /> 
  4.Separate Lines into it's 4 Outputs And Filling Symbol Table (Validating Duplicate Label Error) <br />
  5.Validating If This Line is a Comment <br />
  6.Validating Start ( Operand Hexadecimal , Absence Of Label , Absence OF Start -> Program Counter=0) <br />
